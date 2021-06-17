@@ -1,0 +1,35 @@
+@font-face{
+    font-family: abc;
+    src: url("fonts/GreatVibes-Regular.ttf");
+}
+h1{
+    font-family: abc;
+    background-color: #EBF5FB;
+    color: #2874A6;
+}
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+p:nth-child(even){
+    font-size: larger;
+    color: #7D6608; 
+}
+h1:first-of-type{
+    font-size: 40px;
+}
+p:nth-child(odd){
+    font-size: larger;
+    color: #3498DB; 
+    background-color: #F4ECF7;
+}
+p::after{
+    content: " !";
+}
+h2::first-letter{
+    font-size: 50px;
+    color: turquoise;
+}
+h2:first-of-type{
+    background-color: #EAECEE;
+}

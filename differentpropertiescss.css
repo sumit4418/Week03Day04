@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav li {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 25px;
+    word-spacing: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.div1{
+    background-color: #ABEBC6;
+}
+
+
+h1{
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 18px;
+}
+span{
+    float: right;
+    margin-top: -55px;
+    font-size: larger;
+}
+button{
+    width: 120px;
+    height: 30px;
+    background-color:#21618C;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+.para1{
+    width: 30%;
+    height: auto;
+    float: right;
+    font-size: larger;
+    margin-top: 6px;
+    margin-right: 25px;
+    line-height:25px ;
+    text-align: center;
+}
+.para3{
+    width: 30%;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.para2{
+    width: 33%;
+    height: auto;
+    float: left;
+    font-size: larger;
+    margin-top: 6px;
+    margin-left: 20px;
+    line-height: 25px;
+    
+
+
+}
+img{
+    width: 450px;
+    height: 350px;
+}
+h1::first-letter{
+    font-size: 40px;
+    color:seagreen;
+    margin-left: 20px;
+}
+input[type="submit"]{
+    width: 110px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: #D6EAF8;
+    border-radius: 10px;
+    border:2px solid black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top:-30px;
+
+}
+h2:first-child{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 8px;
+    
+}
+h2::first-letter{
+    font-size: 45px;
+    color: seagreen;
+}
+h2::after{
+    content: "  !!";
+    color: seagreen;
+}
+p::first-letter{
+    font-size: 26px;
+    font-weight: bold;
+}
+p:first-child{
+    color: #229954;
+    
+}
+P::after{
+    content: "!";
+}
+p:nth-child(even){
+    color: #3498DB;
+}
+p:hover{
+     color:red;
+}
+p::first-line{
+    background-color: #D5F5E3;
+}
+h3:first-of-type{
+    color: white;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    margin-top: -5px;
+}

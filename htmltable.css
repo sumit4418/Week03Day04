@@ -1,0 +1,26 @@
+table th, td{
+    border: 1px solid black;
+    font-size: larger;
+    
+}
+table{
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    margin-left: 280px;
+    color: #4A235A;
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+    color: indigo;
+}
+body{
+    background-color: #E8F8F5;
+}
+tr:nth-child(even){
+    background-color: grey;
+    color: honeydew;
+
+
+}
